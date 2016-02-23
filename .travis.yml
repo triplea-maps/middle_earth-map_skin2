@@ -13,6 +13,7 @@ before_deploy:
 deploy:
   provider: releases
   api_key:
+    secure: W7Ji5MaoM/hR1HsWM+DEhVuA846PJFK/QbIRTGyDM1R/TdXYrPANPXiq+c42zr6jKN/e7u8D5isJtPgObUPEdpcMpDqkcfoow6t2wwv0GnpK1Y/+1KXW35yLweIYUItIj2VgseF1Z81vopZ63ZK8DxQIsv4O01NIdWOp5E6zKOOQdUX5ge1fszRxH1ttvpwhVQooPIPew5W1rPX8gU+E2bWSoDE4w+xF/kNaDM/FQJMrObpeEJWY/d2GW4+RFhbkjY+4fxQ8fs6A4HWzRDFCxu09UrOl6O1tOfc0xJIVsAbuV0oj9/7uiVR5beTr//APoLJwxxjzSdzYNG4zu8DmZ4h0oL3jfI4zqNebXdMVTNlBmB2b0ZYYhOSECotVMcKfu7M+VnxMSO6iiaj02rtTGHbWucN24ekmjwoVtQZBqUvx0SIH7axh2XI7o46nNQt4iRBKLVH+K1VA4k5nddf0+K6apwSDBSmum7ptxrE+2SNcMJ6j2d8hF6RfpYC6ecv00InNbFEFw9uN2jlh9k9YttRdj/KhXKi97vLvieBsd9WQYP8FHZ0mnrBCdE0eSBg3QVEuMdDfAzMEERaLGQ8X/L+U/Pt7qVRNdUXzf7GK+OUIVUK11MAH2gbyA4oNa5CrXBqsBSrpTiibwiFwKsEcpgzd+H6CJsQEtf0v+U3qcT0=
   file: "$REPO_NAME.zip"
   skip_cleanup: true
   prerelease: true
